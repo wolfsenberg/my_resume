@@ -1,9 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Outfit', sans-serif;
     background: #edeeae;
     background: radial-gradient(circle, rgba(237, 238, 174, 1) 0%, rgba(148, 233, 186, 1) 100%);
     margin: 0;
     padding: 0;
+    line-height: 1.5;
 }
 
 .navbar {
@@ -109,6 +114,11 @@ hr {
     margin: 4px 0;
 }
 
-html{
-    scroll-behavior: smooth;
+p span.date {
+    float: right;
+    font-style: italic;
+}
+
+p[id] {
+    scroll-margin-top: 80px; 
 }
